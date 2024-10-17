@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello I am Arrow Function</h1>
+    <p id="sum"></p>
+    <p id="sum2"></p>
+
+    <script>
+      function addd(x, y, z) {
+        return x + y + z;
+      }
+
+      var liban = 12;
+      var sadab = 14;
+      var niloy = 15;
+      document.getElementById("sum").innerHTML = addd(liban, sadab, niloy);
+
+      ///////////////
+
+      add = (a, b) => a + b;
+
+      document.getElementById("sum2").innerHTML = add(15, 25);
+    </script>
+  </body>
+</html>
